@@ -1,0 +1,15 @@
+name: churn_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - matplotlib
+  - pandas
+  - seaborn
+  - scikit-learn
+  - numpy
+  - xgboost
+  - lightgbm
+  - jupyter
+  - streamlit
+  - plotly
