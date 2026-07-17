@@ -13,3 +13,6 @@ dependencies:
   - jupyter
   - streamlit
   - plotly
+  - bambi
+  - arviz
+  - mlflow
