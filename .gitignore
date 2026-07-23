@@ -236,6 +236,7 @@ pyrightconfig.json
 # MLflow
 mlruns/
 mlartifacts/
+mlflow.db
 
 # Datos
 data/raw/
