@@ -82,20 +82,33 @@ La aplicación web integrada conecta directamente con el **MLflow Model Registry
 ## Cómo Ejecutar el Proyecto
 
 ### 1. Clonar el repositorio y configurar el entorno
+
 ```bash
-git clone [https://github.com/fpin](https://github.com/fpin)
-eda94/Churn.git
+git clone https://github.com/fpineda94/Churn.git
 cd Churn
+
 conda env create -f environment.yml
 conda activate churn_env
+```
 
 ### 2. Ejecutar la UI de MLflow
+
 ```bash
 mlflow ui --backend-store-uri sqlite:///mlflow.db
+```
 
+La interfaz quedará disponible en:
 
-### 2. Lanzar la aplicación interactiva de Streamlit
+http://localhost:5000
+
+### 3. Lanzar la aplicación interactiva de Streamlit
+
 ```bash
 streamlit run app.py
+```
+
+La aplicación estará disponible en:
+
+http://localhost:8501
 
 
