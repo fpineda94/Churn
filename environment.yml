@@ -15,8 +15,9 @@ dependencies:
   - plotly
   - bambi
   - arviz
-  - mlflow>=2.14
-  - protobuf>=3.20,<5
-  - click>=8.0.0,<8.2.0
-  - werkzeug<3.0.0
-  - flask<3.0.0
+  - mlflow[version='>=2.14']
+  - protobuf[version='>=3.20,<5']
+  - click[version='>=8.0.0,<8.2.0']
+  - flask[version='<3.0.0']
+  - werkzeug[version='<3.0.0']
+  - shap
